@@ -1,436 +1,624 @@
-<!DOCTYPE html> <html lang="id"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mohammad | Belajar MikroTik, Router, AI & Jaringan</title>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<meta name="description"
-    content="Mohammad menyediakan pelatihan belajar MikroTik, setting router, AI, dan jaringan komputer untuk pemula hingga tingkat lanjut.">
+    <title>Makhdum | Network & IT Solution</title>
 
-<link rel="stylesheet" href="style.css">
+    <meta name="description"
+        content="Makhdum menyediakan pembelajaran MikroTik, setting router, AI, pengkabelan jaringan, dan pembuatan website.">
 
-</head> <body>
-<!-- NAVBAR -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
 <header class="navbar">
+
     <div class="container nav-content">
 
         <a href="#home" class="logo">
-            <span>M</span> Mohammad
+            <span class="logo-icon">M</span>
+
+            <div>
+                <strong>MAKHDUM</strong>
+                <small>Network & IT Solution</small>
+            </div>
         </a>
 
         <nav>
-            <a href="#home">Home</a>
-            <a href="#pelatihan">Pelatihan</a>
+            <a href="#home" class="active">Beranda</a>
+            <a href="#layanan">Layanan</a>
             <a href="#tentang">Tentang</a>
+            <a href="#kursus">Kursus</a>
             <a href="#kontak">Kontak</a>
         </nav>
 
-        <a href="#kontak" class="nav-button">
-            Mulai Belajar
+        <a href="#kontak" class="btn btn-primary">
+            Mulai Sekarang →
         </a>
 
     </div>
+
 </header>
 
 
-<!-- HERO -->
-<main id="home">
+<!-- ================= HERO ================= -->
 
-    <section class="hero">
-        <div class="container hero-content">
+<section id="home" class="hero">
 
-            <div class="hero-text">
+    <div class="container hero-content">
 
-                <div class="badge">
-                    🚀 Belajar Teknologi Bersama Mohammad
-                </div>
+        <div class="hero-text">
 
-                <h1>
-                    Kuasai
-                    <span>Jaringan, MikroTik</span>
-                    & AI
-                </h1>
-
-                <p>
-                    Pelajari teknologi jaringan komputer, MikroTik,
-                    setting router, dan Artificial Intelligence
-                    melalui pembelajaran yang mudah dipahami dan
-                    langsung bisa dipraktikkan.
-                </p>
-
-                <div class="hero-buttons">
-                    <a href="#pelatihan" class="btn primary">
-                        Lihat Pelatihan →
-                    </a>
-
-                    <a href="#tentang" class="btn secondary">
-                        Tentang Mohammad
-                    </a>
-                </div>
-
-                <div class="hero-info">
-                    <div>
-                        <strong>4+</strong>
-                        <span>Materi Utama</span>
-                    </div>
-
-                    <div>
-                        <strong>Praktik</strong>
-                        <span>Berbasis Proyek</span>
-                    </div>
-
-                    <div>
-                        <strong>Online</strong>
-                        <span>Belajar Fleksibel</span>
-                    </div>
-                </div>
-
+            <div class="badge">
+                MAKHDUM
+                <span>Solusi Jaringan & Teknologi Masa Depan</span>
             </div>
 
-
-            <div class="hero-card">
-
-                <div class="card-top">
-                    <span class="status"></span>
-                    <span>Learning Dashboard</span>
-                </div>
-
-                <div class="code-window">
-                    <div class="code-line purple">
-                        &lt;network&gt;
-                    </div>
-
-                    <div class="code-line">
-                        <span>router</span> = MikroTik
-                    </div>
-
-                    <div class="code-line">
-                        <span>network</span> = Connected
-                    </div>
-
-                    <div class="code-line">
-                        <span>ai</span> = Learning
-                    </div>
-
-                    <div class="code-line green">
-                        status = "READY"
-                    </div>
-
-                    <div class="cursor"></div>
-                </div>
-
-                <div class="learning-list">
-
-                    <div class="learning-item">
-                        <div class="learning-icon blue">⌁</div>
-                        <div>
-                            <strong>MikroTik</strong>
-                            <small>Routing & Networking</small>
-                        </div>
-                        <b>01</b>
-                    </div>
-
-                    <div class="learning-item">
-                        <div class="learning-icon orange">⚙</div>
-                        <div>
-                            <strong>Setting Router</strong>
-                            <small>Konfigurasi perangkat</small>
-                        </div>
-                        <b>02</b>
-                    </div>
-
-                    <div class="learning-item">
-                        <div class="learning-icon purple">✦</div>
-                        <div>
-                            <strong>Artificial Intelligence</strong>
-                            <small>AI untuk masa depan</small>
-                        </div>
-                        <b>03</b>
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
-
-
-    <!-- PELATIHAN -->
-    <section class="training" id="pelatihan">
-
-        <div class="container">
-
-            <div class="section-heading">
-                <span>PROGRAM BELAJAR</span>
-
-                <h2>
-                    Pelajari Teknologi
-                    <em>Lebih Dalam</em>
-                </h2>
-
-                <p>
-                    Materi dirancang agar kamu tidak hanya memahami teori,
-                    tetapi juga mampu menerapkannya dalam dunia nyata.
-                </p>
-            </div>
-
-
-            <div class="training-grid">
-
-                <!-- CARD 1 -->
-                <article class="training-card">
-
-                    <div class="training-number">01</div>
-
-                    <div class="training-icon blue-bg">
-                        🌐
-                    </div>
-
-                    <h3>Belajar MikroTik</h3>
-
-                    <p>
-                        Pelajari dasar hingga konfigurasi MikroTik,
-                        routing, firewall, DHCP, NAT, dan berbagai
-                        kebutuhan jaringan.
-                    </p>
-
-                    <ul>
-                        <li>Basic MikroTik</li>
-                        <li>Routing & Firewall</li>
-                        <li>DHCP & NAT</li>
-                    </ul>
-
-                    <a href="#kontak">
-                        Mulai Belajar →
-                    </a>
-
-                </article>
-
-
-                <!-- CARD 2 -->
-                <article class="training-card">
-
-                    <div class="training-number">02</div>
-
-                    <div class="training-icon orange-bg">
-                        ⚙️
-                    </div>
-
-                    <h3>Setting Router</h3>
-
-                    <p>
-                        Belajar melakukan konfigurasi router dari
-                        awal hingga jaringan siap digunakan.
-                    </p>
-
-                    <ul>
-                        <li>Konfigurasi Router</li>
-                        <li>IP Address</li>
-                        <li>Internet Gateway</li>
-                    </ul>
-
-                    <a href="#kontak">
-                        Mulai Belajar →
-                    </a>
-
-                </article>
-
-
-                <!-- CARD 3 -->
-                <article class="training-card">
-
-                    <div class="training-number">03</div>
-
-                    <div class="training-icon purple-bg">
-                        ✦
-                    </div>
-
-                    <h3>Belajar AI</h3>
-
-                    <p>
-                        Kenali dunia Artificial Intelligence dan
-                        manfaatkan AI untuk belajar, bekerja,
-                        dan meningkatkan produktivitas.
-                    </p>
-
-                    <ul>
-                        <li>Dasar Artificial Intelligence</li>
-                        <li>Prompt Engineering</li>
-                        <li>AI untuk Produktivitas</li>
-                    </ul>
-
-                    <a href="#kontak">
-                        Mulai Belajar →
-                    </a>
-
-                </article>
-
-
-                <!-- CARD 4 -->
-                <article class="training-card">
-
-                    <div class="training-number">04</div>
-
-                    <div class="training-icon green-bg">
-                        🔗
-                    </div>
-
-                    <h3>Belajar Jaringan</h3>
-
-                    <p>
-                        Pahami konsep jaringan komputer dari dasar,
-                        mulai dari IP Address hingga membangun
-                        jaringan yang terstruktur.
-                    </p>
-
-                    <ul>
-                        <li>TCP/IP & OSI</li>
-                        <li>IP Address & Subnetting</li>
-                        <li>LAN & WAN</li>
-                    </ul>
-
-                    <a href="#kontak">
-                        Mulai Belajar →
-                    </a>
-
-                </article>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- TENTANG -->
-    <section class="about" id="tentang">
-
-        <div class="container about-content">
-
-            <div class="about-visual">
-
-                <div class="circle-big">
-                    <span>M</span>
-                </div>
-
-                <div class="floating-card top">
-                    🎓
-                    <div>
-                        <strong>Learn</strong>
-                        <small>Build Your Skill</small>
-                    </div>
-                </div>
-
-                <div class="floating-card bottom">
-                    💻
-                    <div>
-                        <strong>Practice</strong>
-                        <small>Real World Project</small>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="about-text">
-
-                <span class="section-label">
-                    TENTANG MOHAMMAD
-                </span>
-
-                <h2>
-                    Belajar Teknologi
-                    <em>Tanpa Ribet</em>
-                </h2>
-
-                <p>
-                    Mohammad hadir sebagai tempat belajar teknologi
-                    yang berfokus pada jaringan komputer, MikroTik,
-                    konfigurasi router, dan Artificial Intelligence.
-                </p>
-
-                <p>
-                    Materi dibuat dengan pendekatan sederhana,
-                    praktis, dan mudah diikuti sehingga cocok untuk
-                    pelajar, mahasiswa, teknisi, maupun siapa saja
-                    yang ingin meningkatkan kemampuan teknologi.
-                </p>
-
-                <div class="check-list">
-                    <div>✓ Materi mudah dipahami</div>
-                    <div>✓ Fokus pada praktik</div>
-                    <div>✓ Cocok untuk pemula</div>
-                    <div>✓ Skill yang relevan</div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-
-
-    <!-- CTA -->
-    <section class="cta" id="kontak">
-
-        <div class="container">
-
-            <div class="cta-box">
-
-                <div>
-                    <span>SIAP UNTUK MULAI?</span>
-
-                    <h2>
-                        Bangun Skill Teknologi
-                        <br>
-                        Bersama Mohammad.
-                    </h2>
-
-                    <p>
-                        Mulai belajar jaringan, MikroTik,
-                        router, dan AI hari ini.
-                    </p>
-                </div>
-
-                <a href="mailto:emailanda@example.com" class="btn cta-button">
-                    Hubungi Saya →
+            <h1>
+                Belajar, Konfigurasi
+                dan Bangun Jaringan
+                Bersama
+                <span>Makhdum</span>
+            </h1>
+
+            <p>
+                Kami membantu Anda menguasai teknologi jaringan,
+                mulai dari MikroTik, setting router, pembelajaran AI,
+                pengkabelan jaringan, dan pembuatan website.
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#kursus" class="btn btn-primary">
+                    Jelajahi Kursus →
+                </a>
+
+                <a href="#kontak" class="btn btn-outline">
+                    Hubungi Kami
                 </a>
 
             </div>
 
         </div>
 
-    </section>
 
-</main>
+        <div class="hero-visual">
 
+            <div class="network-circle">
+                <div class="network-line line-1"></div>
+                <div class="network-line line-2"></div>
+                <div class="network-line line-3"></div>
 
-<!-- FOOTER -->
-<footer>
+                <div class="network-node node-1">☁</div>
+                <div class="network-node node-2">▣</div>
+                <div class="network-node node-3">AI</div>
+                <div class="network-node node-4">⌁</div>
+            </div>
 
-    <div class="container footer-content">
+            <div class="router">
 
-        <div class="footer-brand">
-            <a href="#home" class="logo">
-                <span>M</span> Mohammad
-            </a>
+                <div class="router-top">
+                    MikroTik
+                </div>
 
-            <p>
-                Belajar teknologi untuk membangun masa depan.
-            </p>
-        </div>
+                <div class="router-ports">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
 
-        <div class="footer-links">
-            <a href="#home">Home</a>
-            <a href="#pelatihan">Pelatihan</a>
-            <a href="#tentang">Tentang</a>
-            <a href="#kontak">Kontak</a>
+                <div class="router-light"></div>
+
+            </div>
+
+            <div class="router-label">
+                <strong>MikroTik</strong>
+                <small>RouterOS</small>
+                <p>Connect<br>Configure<br>Manage</p>
+            </div>
+
         </div>
 
     </div>
 
-    <div class="copyright">
-        © 2026 Mohammad. All rights reserved.
+</section>
+
+
+<!-- ================= SERVICES SHORT ================= -->
+
+<section class="quick-services">
+
+    <div class="container service-grid">
+
+        <div class="quick-card">
+            <div class="quick-icon">⌘</div>
+            <h3>MikroTik</h3>
+            <p>
+                Konfigurasi, manajemen dan optimasi jaringan dengan MikroTik.
+            </p>
+        </div>
+
+        <div class="quick-card">
+            <div class="quick-icon">▣</div>
+            <h3>Setting Router</h3>
+            <p>
+                Setting berbagai jenis router untuk kebutuhan jaringan Anda.
+            </p>
+        </div>
+
+        <div class="quick-card">
+            <div class="quick-icon">AI</div>
+            <h3>Belajar AI</h3>
+            <p>
+                Kenali dan manfaatkan kecerdasan buatan untuk masa depan.
+            </p>
+        </div>
+
+        <div class="quick-card">
+            <div class="quick-icon">⌁</div>
+            <h3>Pengkabelan</h3>
+            <p>
+                Pelajari teknik pengkabelan jaringan yang benar dan standar.
+            </p>
+        </div>
+
+        <div class="quick-card">
+            <div class="quick-icon">&lt;/&gt;</div>
+            <h3>Pembuatan Website</h3>
+            <p>
+                Bangun website profesional dengan HTML & CSS.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section id="tentang" class="about section">
+
+    <div class="container about-grid">
+
+        <div class="about-image">
+
+            <div class="screen">
+
+                <div class="screen-header">
+                    MikroTik RouterOS
+                </div>
+
+                <div class="screen-content">
+
+                    <div class="screen-sidebar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+
+                    <div class="network-diagram">
+
+                        <div class="diagram-router">ROUTER</div>
+
+                        <div class="diagram-line"></div>
+
+                        <div class="diagram-device">
+                            PC
+                        </div>
+
+                        <div class="diagram-device">
+                            WIFI
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="about-text">
+
+            <div class="section-label">
+                TENTANG KAMI
+            </div>
+
+            <h2>
+                Makhdum
+            </h2>
+
+            <h3>
+                Tempat Belajar & Berkembang
+                <span>di Dunia Jaringan</span>
+            </h3>
+
+            <p>
+                Makhdum adalah platform edukasi dan layanan yang
+                berfokus pada jaringan MikroTik, setting router,
+                belajar AI, pengkabelan jaringan, dan pembuatan website.
+            </p>
+
+            <p>
+                Kami hadir untuk membantu Anda meningkatkan
+                keterampilan dan siap menghadapi tantangan teknologi
+                di era digital.
+            </p>
+
+            <div class="statistics">
+
+                <div>
+                    <strong>100+</strong>
+                    <span>Materi Pembelajaran</span>
+                </div>
+
+                <div>
+                    <strong>5★</strong>
+                    <span>Kualitas Pembelajaran</span>
+                </div>
+
+                <div>
+                    <strong>100%</strong>
+                    <span>Materi Update</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= COURSES ================= -->
+
+<section id="kursus" class="courses section">
+
+    <div class="container">
+
+        <div class="section-heading">
+
+            <div>
+                <div class="section-label">
+                    LAYANAN & KURSUS
+                </div>
+
+                <h2>Pilihan Kursus yang Tersedia</h2>
+
+                <p>
+                    Dapatkan ilmu dan skill terbaik untuk mendukung
+                    karir dan bisnis Anda.
+                </p>
+            </div>
+
+            <a href="#kontak" class="btn btn-outline">
+                Lihat Semua Kursus →
+            </a>
+
+        </div>
+
+
+        <div class="course-grid">
+
+
+            <!-- COURSE 1 -->
+
+            <article class="course-card">
+
+                <div class="course-image mikrotik">
+                    <span>MIKROTIK</span>
+                </div>
+
+                <div class="course-icon">⌘</div>
+
+                <div class="course-body">
+
+                    <h3>Setting MikroTik</h3>
+
+                    <p>
+                        Konfigurasi dasar hingga lanjutan
+                        MikroTik RouterOS untuk jaringan
+                        skala kecil hingga besar.
+                    </p>
+
+                    <a href="#kontak">
+                        Pelajari Lebih Lanjut →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- COURSE 2 -->
+
+            <article class="course-card">
+
+                <div class="course-image router-image">
+                    <span>ROUTER</span>
+                </div>
+
+                <div class="course-icon">▣</div>
+
+                <div class="course-body">
+
+                    <h3>Setting Router</h3>
+
+                    <p>
+                        Konfigurasi router berbagai brand
+                        untuk kebutuhan jaringan Anda.
+                    </p>
+
+                    <a href="#kontak">
+                        Pelajari Lebih Lanjut →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- COURSE 3 -->
+
+            <article class="course-card">
+
+                <div class="course-image ai-image">
+                    <span>AI</span>
+                </div>
+
+                <div class="course-icon">AI</div>
+
+                <div class="course-body">
+
+                    <h3>Belajar AI</h3>
+
+                    <p>
+                        Pengenalan AI, tools, dan penerapannya
+                        untuk kehidupan dan bisnis.
+                    </p>
+
+                    <a href="#kontak">
+                        Pelajari Lebih Lanjut →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- COURSE 4 -->
+
+            <article class="course-card">
+
+                <div class="course-image cable-image">
+                    <span>NETWORK CABLE</span>
+                </div>
+
+                <div class="course-icon">⌁</div>
+
+                <div class="course-body">
+
+                    <h3>Pengkabelan Jaringan</h3>
+
+                    <p>
+                        Pelajari teknik pengkabelan UTP,
+                        Fiber Optic dan standarisasi jaringan.
+                    </p>
+
+                    <a href="#kontak">
+                        Pelajari Lebih Lanjut →
+                    </a>
+
+                </div>
+
+            </article>
+
+
+            <!-- COURSE 5 -->
+
+            <article class="course-card">
+
+                <div class="course-image website-image">
+                    <span>&lt; HTML / CSS &gt;</span>
+                </div>
+
+                <div class="course-icon">&lt;/&gt;</div>
+
+                <div class="course-body">
+
+                    <h3>Pembuatan Website</h3>
+
+                    <p>
+                        Belajar membuat website responsif
+                        dengan HTML & CSS dari dasar hingga mahir.
+                    </p>
+
+                    <a href="#kontak">
+                        Pelajari Lebih Lanjut →
+                    </a>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY US ================= -->
+
+<section id="layanan" class="why-us section">
+
+    <div class="container why-grid">
+
+        <div>
+
+            <div class="section-label">
+                KENAPA MEMILIH MAKHDUM?
+            </div>
+
+            <h2>
+                Alasan Kami Jadi Pilihan
+            </h2>
+
+            <p>
+                Kami tidak hanya memberikan teori, tapi juga
+                praktik langsung agar Anda benar-benar siap
+                di dunia kerja.
+            </p>
+
+        </div>
+
+
+        <div class="benefits">
+
+            <div class="benefit">
+                <div class="benefit-icon">▣</div>
+                <div>
+                    <strong>Materi Lengkap</strong>
+                    <span>Dari dasar hingga mahir</span>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">♧</div>
+                <div>
+                    <strong>Dibimbing Langsung</strong>
+                    <span>Oleh praktisi berpengalaman</span>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">⌂</div>
+                <div>
+                    <strong>Akses Fleksibel</strong>
+                    <span>Belajar kapan saja</span>
+                </div>
+            </div>
+
+            <div class="benefit">
+                <div class="benefit-icon">★</div>
+                <div>
+                    <strong>Sertifikat</strong>
+                    <span>Setelah menyelesaikan kursus</span>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- CTA -->
+
+    <div class="container">
+
+        <div id="kontak" class="contact-box">
+
+            <div class="contact-icon">
+                ✈
+            </div>
+
+            <div class="contact-text">
+
+                <strong>
+                    Siap Memulai Perjalanan Anda?
+                </strong>
+
+                <p>
+                    Hubungi kami sekarang dan dapatkan informasi
+                    lebih lanjut mengenai kursus dan layanan yang tersedia.
+                </p>
+
+            </div>
+
+            <a href="mailto:emailanda@gmail.com"
+               class="btn btn-primary">
+                Hubungi Kami →
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer>
+
+    <div class="container footer-top">
+
+        <a href="#home" class="logo">
+
+            <span class="logo-icon">M</span>
+
+            <div>
+                <strong>MAKHDUM</strong>
+                <small>Network & IT Solution</small>
+            </div>
+
+        </a>
+
+
+        <div class="footer-links">
+
+            <a href="#home">Beranda</a>
+            <a href="#layanan">Layanan</a>
+            <a href="#tentang">Tentang</a>
+            <a href="#kursus">Kursus</a>
+            <a href="#kontak">Kontak</a>
+
+        </div>
+
+
+        <div class="social">
+
+            <a href="#" aria-label="GitHub">GH</a>
+            <a href="#" aria-label="YouTube">YT</a>
+            <a href="mailto:emailanda@gmail.com"
+               aria-label="Email">@</a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        <span>
+            © 2026 Makhdum. Semua Hak Dilindungi.
+        </span>
+
+        <span>
+            Jaringan yang kuat, masa depan lebih baik.
+        </span>
+
     </div>
 
 </footer>
 
-</body> </html>
+
+</body>
+</html>
