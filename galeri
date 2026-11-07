@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeri SMK AL-MIFTAH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <div class="logo">SMK AL-MIFTAH</div>
+    <nav>
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
+        <a href="jurusan.html">Jurusan</a>
+        <a href="prestasi.html">Prestasi</a>
+        <a href="ekstrakurikuler.html">Ekstrakurikuler</a>
+        <a href="galeri.html">Galeri</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-text">
+        <h1>GALERI SEKOLAH</h1>
+        <p>Dokumentasi kegiatan SMK AL-MIFTAH.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Dokumentasi Sekolah</h2>
+
+    <div class="cards">
+        <img src="assets/kegiatan-sekolah.png" alt="Kegiatan sekolah">
+        <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7" alt="Kegiatan kelas">
+        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94" alt="Kegiatan siswa">
+        <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="Lingkungan pendidikan">
+    </div>
+
+    <div class="cards">
+        <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Laboratorium komputer">
+        <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754" alt="Guru dan siswa">
+        <img src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655" alt="Diskusi">
+        <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5" alt="Aktivitas siswa">
+    </div>
+</section>
+
+<footer>
+    <h3>BENYMOHAMMAD18</h3>
+    <p>Galeri SMK AL-MIFTAH</p>
+</footer>
+
+</body>
+</html>
