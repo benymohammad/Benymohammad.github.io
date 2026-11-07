@@ -1,51 +1,77 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prestasi - SMK Al Miftah</title>
-    <style>
-        * { box-sizing: border-box; margin: 0; padding: 0; font-family: 'Segoe UI', sans-serif; }
-        body { line-height: 1.6; color: #333; background-color: #f4f4f9; }
-        header { background: #1b4332; color: #fff; padding: 1rem 0; text-align: center; }
-        nav { background: #2d6a4f; display: flex; justify-content: center; flex-wrap: wrap; }
-        nav a { color: white; padding: 14px 20px; text-decoration: none; }
-        nav a:hover { background-color: #52b788; color: #1b4332; }
-        .container { padding: 20px; max-width: 1200px; margin: auto; }
-        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; margin-top: 20px; }
-        .gallery img { width: 100%; height: 200px; object-fit: cover; border-radius: 8px; }
-        ul { margin-left: 20px; margin-bottom: 20px; }
-        footer { background: #1b4332; color: white; text-align: center; padding: 15px; margin-top: 30px; }
-    </style>
+    <title>Prestasi SMK AL-MIFTAH</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header><h1>SMK AL MIFTAH</h1></header>
+
+<header>
+    <div class="logo">SMK AL-MIFTAH</div>
     <nav>
-        <a href="index.html">Profil</a>
+        <a href="index.html">Beranda</a>
+        <a href="profil.html">Profil</a>
         <a href="jurusan.html">Jurusan</a>
         <a href="prestasi.html">Prestasi</a>
         <a href="ekstrakurikuler.html">Ekstrakurikuler</a>
-        <a href="fasilitas.html">Fasilitas</a>
-        <a href="alumni.html">Alumni</a>
+        <a href="galeri.html">Galeri</a>
         <a href="kontak.html">Kontak</a>
     </nav>
-    <div class="container">
-        <h2>Prestasi Siswa SMK Al Miftah</h2>
-        <ul>
-            <li>Juara 1 LKS (Lomba Kompetensi Siswa) Bidang Web Technologies Tingkat Provinsi</li>
-            <li>Juara 2 Turnamen Futsal Antar-SMK Se-Kabupaten</li>
-            <li>Juara 1 Olimpiade Akuntansi Tingkat Nasional</li>
-            <li>Juara 3 Lomba Robotik dan Inovasi Teknologi</li>
-        </ul>
+</header>
 
-        <h3>Dokumentasi Penyerahan Penghargaan</h3>
-        <div class="gallery">
-            <img src="https://images.unsplash.com/photo-1567427017947-545c5f8d16ad?w=500" alt="Piala Lomba">
-            <img src="https://images.unsplash.com/photo-1574629810360-7efbbe195018?w=500" alt="Juara Futsal">
-            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=500" alt="Penerimaan Piagam">
-            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=500" alt="Tim Medali">
+<section class="hero">
+    <div class="hero-text">
+        <h1>PRESTASI SISWA</h1>
+        <p>Kreativitas, kemampuan dan karya siswa.</p>
+    </div>
+</section>
+
+<section class="section">
+    <h2>Prestasi dan Karya Siswa</h2>
+
+    <div class="cards">
+        <div>
+            <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644" alt="Kegiatan siswa">
+            <h3>Kegiatan Akademik</h3>
+            <p>Pengembangan kemampuan akademik
+            dan kompetensi siswa.</p>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3" alt="Karya komputer">
+            <h3>Karya Teknologi</h3>
+            <p>Pengembangan proyek jaringan komputer
+            dan teknologi digital.</p>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1529390079861-591de354faf5" alt="Kerja tim">
+            <h3>Kerja Sama Tim</h3>
+            <p>Pengembangan kemampuan kerja sama
+            dan kreativitas.</p>
+        </div>
+
+        <div>
+            <img src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1" alt="Pendidikan">
+            <h3>Karya Pendidikan</h3>
+            <p>Hasil pembelajaran dan proyek
+            peserta didik.</p>
         </div>
     </div>
-    <footer><p>&copy; 2026 SMK Al Miftah</p></footer>
+
+    <p class="note">
+        Tambahkan foto penghargaan dan nama lomba yang benar-benar
+        pernah diikuti atau dimenangkan oleh siswa.
+    </p>
+</section>
+
+<footer>
+    <h3>BENYMOHAMMAD18</h3>
+    <p>Prestasi SMK AL-MIFTAH</p>
+</footer>
+
 </body>
 </html>
